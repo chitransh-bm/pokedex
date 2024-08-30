@@ -6,21 +6,34 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "drizzle:generate": "drizzle-kit generate",
+    "drizzle:migrate": "drizzle-kit migrate"
   },
   "dependencies": {
+    "@tanstack/react-query": "^5.52.2",
+    "@trpc/client": "^11.0.0-rc.487",
+    "@trpc/next": "^11.0.0-rc.487",
+    "@trpc/react-query": "^11.0.0-rc.487",
+    "@trpc/server": "^11.0.0-rc.487",
+    "dotenv": "^16.4.5",
+    "next": "14.2.7",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.7"
+    "zod": "^3.23.8"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
+    "autoprefixer": "^10.4.20",
+    "drizzle-kit": "^0.24.2",
+    "drizzle-orm": "^0.33.0",
     "eslint": "^8",
-    "eslint-config-next": "14.2.7"
+    "eslint-config-next": "14.2.7",
+    "mysql2": "^3.11.0",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.10",
+    "typescript": "^5"
   }
 }
